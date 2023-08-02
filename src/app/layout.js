@@ -12,9 +12,10 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <a href="">Home</a>
-          <a href="">About</a>
+        <nav className="mx-auto text-center mt-4 items-center">
+          <a href="/" className='me-2'>Home</a>
+          <a href="/about" className='me-2'>About</a>
+          <a href="/profile" className='me-2'>Profile</a>
         </nav>
         {children}
         <footer>
