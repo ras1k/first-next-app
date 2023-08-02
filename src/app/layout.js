@@ -18,7 +18,7 @@ const RootLayout = ({ children }) => {
           <a href="/profile" className='me-2'>Profile</a>
         </nav>
         {children}
-        <footer>
+        <footer className='text-center'>
           Footer
         </footer>
       </body>
