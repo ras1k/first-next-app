@@ -1,3 +1,4 @@
+'use client';
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -16,6 +17,7 @@ const RootLayout = ({ children }) => {
           <a href="/" className='me-2'>Home</a>
           <a href="/about" className='me-2'>About</a>
           <a href="/profile" className='me-2'>Profile</a>
+          <a href="/blogs" className='me-2'>Blogs</a>
         </nav>
         {children}
         <footer className='text-center'>
